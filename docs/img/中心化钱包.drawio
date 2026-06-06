@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="中心化钱包" id="PYbJTSLmegK2KFkQHOvD">
     <mxGraphModel dx="706" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,6 +313,78 @@
         </mxCell>
         <mxCell id="vTwkeCeRXwcmrpA0SH9z-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用户充值完整流程" vertex="1">
           <mxGeometry height="30" width="60" x="60" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qduqjK2jbQNyApXUiuf1" name="中心化钱包-提现">
+    <mxGraphModel dx="741" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-9" edge="1" parent="1" source="Fi450kLOIsTdtuu1cK6a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d-1I2BFk4-5hv6TSbJui-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi450kLOIsTdtuu1cK6a-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="钱包1" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-10" edge="1" parent="1" source="Fi450kLOIsTdtuu1cK6a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi450kLOIsTdtuu1cK6a-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="钱包2" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-12" edge="1" parent="1" source="Fi450kLOIsTdtuu1cK6a-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="470" />
+              <mxPoint x="330" y="360" />
+            </Array>
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi450kLOIsTdtuu1cK6a-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="钱包3" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="user" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-17" edge="1" parent="1" source="d-1I2BFk4-5hv6TSbJui-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="d-1I2BFk4-5hv6TSbJui-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-18" edge="1" parent="1" source="d-1I2BFk4-5hv6TSbJui-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d-1I2BFk4-5hv6TSbJui-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-8" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="归集账户" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="transfer" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-14" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="冷钱包地址70%" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-20" edge="1" parent="1" source="d-1I2BFk4-5hv6TSbJui-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d-1I2BFk4-5hv6TSbJui-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-21" connectable="0" parent="d-1I2BFk4-5hv6TSbJui-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;提币" vertex="1">
+          <mxGeometry relative="1" x="-0.0857" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-15" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="热钱包地址30%" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="web3" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="出金过程" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d-1I2BFk4-5hv6TSbJui-23" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" value="归集策略&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.在手续费比较低的时候&lt;/div&gt;&lt;div&gt;2.钱包地址余额大于X&lt;/div&gt;&lt;div&gt;3. 财务手动归集&lt;/div&gt;&lt;div&gt;4. 定时归集&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="414" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
