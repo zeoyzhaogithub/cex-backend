@@ -31,14 +31,15 @@
 | [01-cex-overview](./docs/business/01-cex-overview.md) | CEX 概念、生态、与 DEX 对比、现货生命周期 | 已完成 |
 | [02-custodial-wallet](./docs/business/02-custodial-wallet.md) | 中心化钱包：入金、监听、归集、出金 | 整理中 |
 | [03-spot-trading-flow](./docs/business/03-spot-trading-flow.md) | 现货订单流与资金流 | 待编写 |
-| [04-order-book](./docs/business/04-order-book.md) | 订单簿深度解析 | 待编写 |
+| [04-order-book](./docs/business/04-order-book.md) | 订单簿深度解析 | 已完成 |
 | [05-matching-engine](./docs/business/05-matching-engine.md) | 撮合引擎核心算法 | 待编写 |
 
 ## 实现进度
 
 - [x] 业务文档：CEX 概述
 - [x] 业务文档：中心化钱包（结构整理，细节待完善）
-- [ ] 业务文档：现货交易 / 订单簿 / 撮合引擎
+- [x] 业务文档：订单簿
+- [ ] 业务文档：现货交易 / 撮合引擎
 - [ ] 代码：项目脚手架
 - [ ] 代码：中心化钱包模块
 - [ ] 代码：订单簿与撮合引擎
