@@ -8,7 +8,14 @@
 
 | 文档 | 说明 | 状态 |
 | :--- | :--- | :--- |
+| [wallets/](./wallets/) | ETH / USDT 钱包代码走读与部署 | 整理中 |
 | module-overview.md | 模块总览与依赖关系 | 待编写 |
 | data-model.md | 数据库表结构与实体关系 | 待编写 |
 | api-design.md | REST / WebSocket 接口设计 | 待编写 |
-| code-walkthrough.md | 核心代码走读 | 待编写 |
+
+## 钱包模块
+
+| 文档 | 对应业务文档 | 课程 |
+| :--- | :--- | :--- |
+| [wallets/eth-wallet.md](./wallets/eth-wallet.md) | [06-eth-wallet.md](../business/06-eth-wallet.md) | 5.4、5.5 |
+| [wallets/usdt-wallet.md](./wallets/usdt-wallet.md) | [07-usdt-wallet.md](../business/07-usdt-wallet.md) | 6.1 |
