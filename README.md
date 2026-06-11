@@ -32,17 +32,26 @@
 | [02-custodial-wallet](./docs/business/02-custodial-wallet.md) | 中心化钱包：入金、监听、归集、出金 | 整理中 |
 | [03-spot-trading-flow](./docs/business/03-spot-trading-flow.md) | 现货订单流与资金流 | 待编写 |
 | [04-order-book](./docs/business/04-order-book.md) | 订单簿深度解析 | 已完成 |
-| [05-matching-engine](./docs/business/05-matching-engine.md) | 撮合引擎核心算法 | 待编写 |
+| [05-matching-engine](./docs/business/05-matching-engine.md) | 撮合引擎核心算法 | 已完成 |
+| [06-eth-wallet](./docs/business/06-eth-wallet.md) | ETH 钱包：地址、扫链、归集、提币 | 整理中 |
+| [07-usdt-wallet](./docs/business/07-usdt-wallet.md) | USDT 钱包（ERC-20） | 整理中 |
+
+### 代码走读
+
+| 文档 | 说明 |
+| :--- | :--- |
+| [architecture/wallets/](./docs/architecture/wallets/) | ETH / USDT 钱包代码走读与部署 |
 
 ## 实现进度
 
 - [x] 业务文档：CEX 概述
 - [x] 业务文档：中心化钱包（结构整理，细节待完善）
 - [x] 业务文档：订单簿
-- [ ] 业务文档：现货交易 / 撮合引擎
-- [ ] 代码：项目脚手架
-- [ ] 代码：中心化钱包模块
-- [ ] 代码：订单簿与撮合引擎
+- [x] 业务文档：撮合引擎
+- [x] 业务文档：ETH / USDT 钱包（结构已建，细节待补）
+- [ ] 业务文档：现货交易
+- [ ] 代码：ETH 钱包模块
+- [ ] 代码：USDT 钱包模块
 
 ## 目录结构
 
@@ -57,9 +66,15 @@ cex-backend/
 │   │   ├── 02-custodial-wallet.md     # 中心化钱包
 │   │   ├── 03-spot-trading-flow.md    # 现货订单流与资金流
 │   │   ├── 04-order-book.md           # 订单簿
-│   │   └── 05-matching-engine.md      # 撮合引擎
-│   ├── architecture/                  # 架构与实现文档（随代码补充）
-│   │   └── README.md
+│   │   ├── 05-matching-engine.md      # 撮合引擎
+│   │   ├── 06-eth-wallet.md           # ETH 钱包（课程第 5 章）
+│   │   └── 07-usdt-wallet.md          # USDT 钱包（课程第 6 章）
+│   ├── architecture/                  # 架构与实现文档
+│   │   ├── README.md
+│   │   └── wallets/                   # 钱包代码走读
+│   │       ├── README.md
+│   │       ├── eth-wallet.md          # 5.4、5.5
+│   │       └── usdt-wallet.md         # 6.1
 │   └── img/                           # 文档配图
 │       ├── 中心化钱包.drawio
 │       ├── 中心化钱包.png
